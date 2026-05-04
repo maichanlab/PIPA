@@ -1,7 +1,7 @@
 Package: PIPA
 Title: Prognosis-informed Phenotype Assignment (PIPA)
 Version: 0.0.0.9000
-Authors@R: c(person("MaiChan", "Lau", email = "lau_mai_chan@bii.a-star.edu.sg", role = c("aut", "cre")),
+Authors@R: c(person("MaiChan", "Lau", email = "lau_mai_chan@a-star.edu.sg", role = c("aut", "cre")),
     person("Jonathan", "Nowak", email = "janowak@bwh.harvard.edu", role = c("aut")),
     person("Shuji", "Ogino", email = "sogino@bwh.harvard.edu", role = c("aut")))
 Description: Prognosis-informed Phenotype Assignment (PIPA): A Novel Method for Unsupervised Discovery of Cell Phenotypes with Prognostic Significance in the Tumor Microenvironment.
