@@ -30,7 +30,7 @@ Imports:
     amap,
     umap
 Remotes:
-    cran/DMwR
+    cran/DMwR,
     JinmiaoChenLab/Rphenograph
 RoxygenNote: 7.2.3
 Depends: 
