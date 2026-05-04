@@ -1,0 +1,34 @@
+Package: PIPA
+Title: Prognosis-informed Phenotype Assignment (PIPA)
+Version: 0.0.0.9000
+Authors@R: c(person("MaiChan", "Lau", email = "lau_mai_chan@bii.a-star.edu.sg", role = c("aut", "cre")),
+    person("Jonathan", "Nowak", email = "janowak@bwh.harvard.edu", role = c("aut")),
+    person("Shuji", "Ogino", email = "sogino@bwh.harvard.edu", role = c("aut")))
+Description: Prognosis-informed Phenotype Assignment (PIPA): A Novel Method for Unsupervised Discovery of Cell Phenotypes with Prognostic Significance in the Tumor Microenvironment.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    Rphenograph,
+    stats,
+    grDevices,
+    utils,
+    igraph,
+    plyr,
+    survival,
+    glmnet,
+    ggplot2,
+    tidyr,
+    dplyr,
+    survminer,
+    caret,
+    corrplot,
+    DMwR,
+    ComplexHeatmap,
+    grid,
+    RColorBrewer,
+    amap,
+    umap
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
