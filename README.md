@@ -3,9 +3,16 @@ Prognosis-informed Phenotype Assignment (PIPA): A Novel Method for Unsupervised 
 
 ## Initialization
 ````
-# Package installation
-devtools::install_github('ltorgo/DMwR2')
-devtools::install_github('maichanlab/PIPA')
+# Package and dependency installation
+if (!requireNamespace("DMwR", quietly = TRUE)) {
+  devtools::install_github("cran/DMwR")
+}
+if (!requireNamespace("Rphenograph", quietly = TRUE)) {
+  devtools::install_github("JinmiaoChenLab/Rphenograph")
+}
+if (!requireNamespace("PIPA", quietly = TRUE)) {
+  devtools::install_github("maichanlab/PIPA")
+}
 library(PIPA)
 
 # Set paths
