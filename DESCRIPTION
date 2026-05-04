@@ -23,7 +23,6 @@ Imports:
     survminer,
     caret,
     corrplot,
-    DMwR,
     ComplexHeatmap,
     grid,
     RColorBrewer,
